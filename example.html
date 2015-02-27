@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slide to click example</title>
+
+		<link rel="stylesheet" type="text/css" href="slide-to-click.css">
+		<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="slide-to-click.js"></script>
+	</head>
+	<body>
+		<br/><center><button>Slide to click</button></center>
+		<br/><center>becomes:</center>
+		<br/><center><button class="slide-to-click">Slide to click</button></center>
+
+		<script type="text/javascript">
+			$('.slide-to-click').slideToClick();
+			
+			$('button').click(function(){
+				alert('A button has been clicked');
+			});
+		</script>
+	</body>
+</html>

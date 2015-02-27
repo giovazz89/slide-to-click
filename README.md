@@ -1,2 +1,2 @@
-# slide-to-click
+# Slide to click
 jQuery plugin that transforms buttons into sliders
